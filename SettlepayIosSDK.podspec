@@ -3,7 +3,6 @@ Pod::Spec.new do |spec|
 
   spec.name               = "SettlepayIosSDK"
   spec.version            = "0.0.1"
-  spec.version            = "0.0.1"
   spec.summary            = "PayApiIosSDK is a framework which provides 4billio payment services implementation to be used in mobile apps"
 
   spec.description        = "PayApiIosSDK is a framework which provides 4billio payment services implementation to be used in mobile apps"
