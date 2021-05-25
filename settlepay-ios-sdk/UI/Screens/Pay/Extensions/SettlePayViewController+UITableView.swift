@@ -36,7 +36,10 @@ extension SettlePayViewController: UITableViewDataSource {
             return UITableViewCell()
         }
         switch cellType {
-        
+        case SettlePayUIViewModel.PaymentGeneralCells.logo:
+            let cell = tableView.getReusableCell(type: SettlePayLogoTableViewCell.self, for: indexPath)!
+            cell.logo = PaymentSDK.shared.logo
+            return cell
         case SettlePayUIViewModel.PaymentGeneralCells.title:
             let title = self.uiViewModel.getTransactionNumberTitle()
             let cell = tableView.getReusableCell(type: SettlePayGeneralTitleTableViewCell.self, for: indexPath)!

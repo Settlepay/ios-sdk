@@ -173,6 +173,8 @@
 		F1D6FEB9265D33BA008B8BFE /* CryptoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FE14265D33BA008B8BFE /* CryptoHelper.swift */; };
 		F1D6FEBA265D33BA008B8BFE /* IPAdressHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FE15265D33BA008B8BFE /* IPAdressHelper.swift */; };
 		F1D6FEBB265D33BA008B8BFE /* BundleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FE16265D33BA008B8BFE /* BundleHelper.swift */; };
+		F1D6FEED265D41FB008B8BFE /* SettlePayLogoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FEEC265D41FB008B8BFE /* SettlePayLogoTableViewCell.swift */; };
+		F1D6FEF1265D4210008B8BFE /* SettlePayLogoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1D6FEF0265D4210008B8BFE /* SettlePayLogoTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -344,6 +346,8 @@
 		F1D6FE14265D33BA008B8BFE /* CryptoHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoHelper.swift; sourceTree = "<group>"; };
 		F1D6FE15265D33BA008B8BFE /* IPAdressHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPAdressHelper.swift; sourceTree = "<group>"; };
 		F1D6FE16265D33BA008B8BFE /* BundleHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BundleHelper.swift; sourceTree = "<group>"; };
+		F1D6FEEC265D41FB008B8BFE /* SettlePayLogoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettlePayLogoTableViewCell.swift; sourceTree = "<group>"; };
+		F1D6FEF0265D4210008B8BFE /* SettlePayLogoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettlePayLogoTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -843,6 +847,7 @@
 				F1D6FDDC265D33BA008B8BFE /* SettlePayGeneralSumTableViewCell.xib */,
 				F1D6FDDD265D33BA008B8BFE /* SettlePayGeneralTitleTableViewCell.xib */,
 				F1D6FDDE265D33BA008B8BFE /* BorderedTextFieldView.xib */,
+				F1D6FEF0265D4210008B8BFE /* SettlePayLogoTableViewCell.xib */,
 			);
 			path = Xibs;
 			sourceTree = "<group>";
@@ -898,6 +903,7 @@
 		F1D6FDEB265D33BA008B8BFE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F1D6FEEB265D41F2008B8BFE /* SettlePayLogoTableViewCell */,
 				F1D6FDEC265D33BA008B8BFE /* SettlePayActionButtonTableViewCell */,
 				F1D6FDEE265D33BA008B8BFE /* SettlePayGeneralSumTableViewCell */,
 				F1D6FDF0265D33BA008B8BFE /* SettlePayCardDatesTableViewCell */,
@@ -1067,6 +1073,14 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		F1D6FEEB265D41F2008B8BFE /* SettlePayLogoTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FEEC265D41FB008B8BFE /* SettlePayLogoTableViewCell.swift */,
+			);
+			path = SettlePayLogoTableViewCell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1165,6 +1179,7 @@
 				F1D6FE23265D33BA008B8BFE /* SF-Pro-Display-Ultralight.otf in Resources */,
 				F1D6FE98265D33BA008B8BFE /* SettlePayCompaniesTableViewCell.xib in Resources */,
 				F1D6FE27265D33BA008B8BFE /* SF-Pro-Display-Black.otf in Resources */,
+				F1D6FEF1265D4210008B8BFE /* SettlePayLogoTableViewCell.xib in Resources */,
 				F1D6FE26265D33BA008B8BFE /* SF-Pro-Display-BlackItalic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1291,6 +1306,7 @@
 				F1D6FE7F265D33BA008B8BFE /* UIColor+Hex.swift in Sources */,
 				F1D6FE92265D33BA008B8BFE /* Constants+Notifications.swift in Sources */,
 				F1D6FE82265D33BA008B8BFE /* NSRange+Deleting.swift in Sources */,
+				F1D6FEED265D41FB008B8BFE /* SettlePayLogoTableViewCell.swift in Sources */,
 				F1D6FEB4265D33BA008B8BFE /* RoundedView.swift in Sources */,
 				F1D6FE4A265D33BA008B8BFE /* CreateTransactionRequestData.swift in Sources */,
 				F1D6FE62265D33BA008B8BFE /* APIErrorValidator.swift in Sources */,

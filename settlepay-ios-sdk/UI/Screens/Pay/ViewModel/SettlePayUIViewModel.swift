@@ -26,7 +26,10 @@ class SettlePayUIViewModel: NSObject {
         var cellsCount: Int {
             switch self {
             case .paymentGeneral:
-                return PaymentGeneralCells.allCases.count
+                if PaymentSDK.shared.logo != nil {
+                    return PaymentGeneralCells.allCases.count
+                }
+                return PaymentGeneralCells.allCases.filter({ $0 != .logo }).count
             case .cardInfo:
                 return CardInfoCells.allCases.count
             case .actionButtons:
@@ -38,7 +41,8 @@ class SettlePayUIViewModel: NSObject {
     }
     
     enum PaymentGeneralCells: Int, CaseIterable, SettleTableViewCell {
-        case title = 0
+        case logo = 0
+        case title
         case sum
     }
     
@@ -124,7 +128,11 @@ class SettlePayUIViewModel: NSObject {
     func getCellType(from row: Int, section: Section) -> SettleTableViewCell? {
         switch section {
         case .paymentGeneral:
-            return PaymentGeneralCells(rawValue: row)
+            if PaymentSDK.shared.logo != nil {
+                return PaymentGeneralCells(rawValue: row)
+            }
+            let cells = PaymentGeneralCells.allCases.filter({ $0 != .logo })
+            return cells[row]
         case .cardInfo:
             return CardInfoCells(rawValue: row)
         case .actionButtons:

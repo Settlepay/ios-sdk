@@ -52,6 +52,8 @@ public class SettlePayViewController: SettleBaseViewController {
     
     private var isNeedToSaveCard: Bool = false
     
+    private var isScannerWillBeShown: Bool = false
+    
     lazy var uiViewModel: SettlePayUIViewModel = {
         let model = SettlePayUIViewModel()
         return model
@@ -70,13 +72,16 @@ public class SettlePayViewController: SettleBaseViewController {
     
     public override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        self.isScannerWillBeShown = false
         self.prepareNavigationBar()
         self.reloadTableView()
     }
     
     public override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
-        self.prepareForDismiss()
+        if !self.isScannerWillBeShown {
+            self.prepareForDismiss()
+        }
         self.stopLoading()
     }
     
@@ -168,7 +173,8 @@ public class SettlePayViewController: SettleBaseViewController {
             SettlePayCardDatesTableViewCell.self,
             SettlePayCardCVVTableViewCell.self,
             SettlePayActionButtonTableViewCell.self,
-            SettlePayCompaniesTableViewCell.self
+            SettlePayCompaniesTableViewCell.self,
+            SettlePayLogoTableViewCell.self
         ])
     }
     
@@ -182,6 +188,7 @@ public class SettlePayViewController: SettleBaseViewController {
     //MARK: - Screens
     
     func pushScannerScreen() {
+        self.isScannerWillBeShown = true
         let controller = SettleCardScannerViewController.storyboardInstance()!
         controller.delegate = self
         self.navigationController?.pushViewController(controller, animated: true)
