@@ -5,3 +5,5 @@ xcuserdata/*
 UserInterfaceState.xcuserstate
 Podfile.lock
 Breakpoints_v2.xcbkptlist
+contents.xcworkspacedata
+xcschememanagement.plist

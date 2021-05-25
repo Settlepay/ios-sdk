@@ -1,0 +1,1513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1D6FD29265D3371008B8BFE /* settlepay_ios_sdk.h in Headers */ = {isa = PBXBuildFile; fileRef = F1D6FD27265D3371008B8BFE /* settlepay_ios_sdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1D6FE17265D33BA008B8BFE /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1D6FD33265D33BA008B8BFE /* Roboto-Medium.ttf */; };
+		F1D6FE18265D33BA008B8BFE /* SF-Pro-Display-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = F1D6FD35265D33BA008B8BFE /* SF-Pro-Display-Thin.otf */; };
+		F1D6FE19265D33BA008B8BFE /* SF-Pro-Display-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F1D6FD36265D33BA008B8BFE /* SF-Pro-Display-SemiboldItalic.otf */; };
+		F1D6FE1A265D33BA008B8BFE /* SF-Pro-Display-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F1D6FD37265D33BA008B8BFE /* SF-Pro-Display-RegularItalic.otf */; };
+		F1D6FE1B265D33BA008B8BFE /* SF-Pro-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = F1D6FD38265D33BA008B8BFE /* SF-Pro-Display-Light.otf */; };
+		F1D6FE1C265D33BA008B8BFE /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F1D6FD39265D33BA008B8BFE /* SF-Pro-Display-Regular.otf */; };
+		F1D6FE1D265D33BA008B8BFE /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F1D6FD3A265D33BA008B8BFE /* SF-Pro-Display-Bold.otf */; };
+		F1D6FE1E265D33BA008B8BFE /* SF-Pro-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F1D6FD3B265D33BA008B8BFE /* SF-Pro-Display-Medium.otf */; };
+		F1D6FE1F265D33BA008B8BFE /* SF-Pro-Display-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = F1D6FD3C265D33BA008B8BFE /* SF-Pro-Display-Heavy.otf */; };
+		F1D6FE20265D33BA008B8BFE /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F1D6FD3D265D33BA008B8BFE /* SF-Pro-Display-Semibold.otf */; };
+		F1D6FE21265D33BA008B8BFE /* SF-Pro-Display-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F1D6FD3E265D33BA008B8BFE /* SF-Pro-Display-MediumItalic.otf */; };
+		F1D6FE22265D33BA008B8BFE /* SF-Pro-Display-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F1D6FD3F265D33BA008B8BFE /* SF-Pro-Display-HeavyItalic.otf */; };
+		F1D6FE23265D33BA008B8BFE /* SF-Pro-Display-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = F1D6FD40265D33BA008B8BFE /* SF-Pro-Display-Ultralight.otf */; };
+		F1D6FE24265D33BA008B8BFE /* SF-Pro-Display-UltralightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F1D6FD41265D33BA008B8BFE /* SF-Pro-Display-UltralightItalic.otf */; };
+		F1D6FE25265D33BA008B8BFE /* SF-Pro-Display-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F1D6FD42265D33BA008B8BFE /* SF-Pro-Display-LightItalic.otf */; };
+		F1D6FE26265D33BA008B8BFE /* SF-Pro-Display-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F1D6FD43265D33BA008B8BFE /* SF-Pro-Display-BlackItalic.otf */; };
+		F1D6FE27265D33BA008B8BFE /* SF-Pro-Display-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = F1D6FD44265D33BA008B8BFE /* SF-Pro-Display-Black.otf */; };
+		F1D6FE28265D33BA008B8BFE /* SF-Pro-Display-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F1D6FD45265D33BA008B8BFE /* SF-Pro-Display-ThinItalic.otf */; };
+		F1D6FE29265D33BA008B8BFE /* SF-Pro-Display-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F1D6FD46265D33BA008B8BFE /* SF-Pro-Display-BoldItalic.otf */; };
+		F1D6FE2A265D33BA008B8BFE /* HostToHostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD48265D33BA008B8BFE /* HostToHostService.swift */; };
+		F1D6FE2B265D33BA008B8BFE /* CardTransferService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD49265D33BA008B8BFE /* CardTransferService.swift */; };
+		F1D6FE2C265D33BA008B8BFE /* PaymentSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD4A265D33BA008B8BFE /* PaymentSDK.swift */; };
+		F1D6FE2D265D33BA008B8BFE /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD4B265D33BA008B8BFE /* BaseService.swift */; };
+		F1D6FE2E265D33BA008B8BFE /* PaymentPageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD4C265D33BA008B8BFE /* PaymentPageService.swift */; };
+		F1D6FE2F265D33BA008B8BFE /* CardTokenizationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD4D265D33BA008B8BFE /* CardTokenizationService.swift */; };
+		F1D6FE30265D33BA008B8BFE /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD50265D33BA008B8BFE /* AuthManager.swift */; };
+		F1D6FE31265D33BA008B8BFE /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD52265D33BA008B8BFE /* Core.swift */; };
+		F1D6FE32265D33BA008B8BFE /* AccountNetworkHandlerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD55265D33BA008B8BFE /* AccountNetworkHandlerComponent.swift */; };
+		F1D6FE33265D33BA008B8BFE /* NetworkHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD56265D33BA008B8BFE /* NetworkHandling.swift */; };
+		F1D6FE34265D33BA008B8BFE /* TransactionNetworkHandlerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD57265D33BA008B8BFE /* TransactionNetworkHandlerComponent.swift */; };
+		F1D6FE35265D33BA008B8BFE /* CardNetworkHandlerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD58265D33BA008B8BFE /* CardNetworkHandlerComponent.swift */; };
+		F1D6FE36265D33BA008B8BFE /* BaseNetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD59265D33BA008B8BFE /* BaseNetworkHandler.swift */; };
+		F1D6FE37265D33BA008B8BFE /* ServiceNetworkHandlerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD5A265D33BA008B8BFE /* ServiceNetworkHandlerComponent.swift */; };
+		F1D6FE38265D33BA008B8BFE /* APIResponseSerializing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD5B265D33BA008B8BFE /* APIResponseSerializing.swift */; };
+		F1D6FE39265D33BA008B8BFE /* APIClient+Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD5D265D33BA008B8BFE /* APIClient+Transaction.swift */; };
+		F1D6FE3A265D33BA008B8BFE /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD5E265D33BA008B8BFE /* APIClient.swift */; };
+		F1D6FE3B265D33BA008B8BFE /* APIClient+Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD5F265D33BA008B8BFE /* APIClient+Service.swift */; };
+		F1D6FE3C265D33BA008B8BFE /* APIClient+ServerTrust.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD60265D33BA008B8BFE /* APIClient+ServerTrust.swift */; };
+		F1D6FE3D265D33BA008B8BFE /* APIClient+Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD61265D33BA008B8BFE /* APIClient+Card.swift */; };
+		F1D6FE3E265D33BA008B8BFE /* APIClient+Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD62265D33BA008B8BFE /* APIClient+Account.swift */; };
+		F1D6FE3F265D33BA008B8BFE /* APIClient+SessionConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD63265D33BA008B8BFE /* APIClient+SessionConfiguration.swift */; };
+		F1D6FE40265D33BA008B8BFE /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD64265D33BA008B8BFE /* APIConstants.swift */; };
+		F1D6FE41265D33BA008B8BFE /* FindTransactionRequestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD67265D33BA008B8BFE /* FindTransactionRequestData.swift */; };
+		F1D6FE42265D33BA008B8BFE /* PayTransactionRequestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD68265D33BA008B8BFE /* PayTransactionRequestData.swift */; };
+		F1D6FE43265D33BA008B8BFE /* UpdateTransactionResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD69265D33BA008B8BFE /* UpdateTransactionResponseData.swift */; };
+		F1D6FE44265D33BA008B8BFE /* CancelTransactionResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD6A265D33BA008B8BFE /* CancelTransactionResponseData.swift */; };
+		F1D6FE45265D33BA008B8BFE /* PayTransactionResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD6B265D33BA008B8BFE /* PayTransactionResponseData.swift */; };
+		F1D6FE46265D33BA008B8BFE /* CreateTransactionResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD6C265D33BA008B8BFE /* CreateTransactionResponseData.swift */; };
+		F1D6FE47265D33BA008B8BFE /* UpdateTransactionRequestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD6D265D33BA008B8BFE /* UpdateTransactionRequestData.swift */; };
+		F1D6FE48265D33BA008B8BFE /* CancelTransactionRequestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD6E265D33BA008B8BFE /* CancelTransactionRequestData.swift */; };
+		F1D6FE49265D33BA008B8BFE /* FindTransactionResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD6F265D33BA008B8BFE /* FindTransactionResponseData.swift */; };
+		F1D6FE4A265D33BA008B8BFE /* CreateTransactionRequestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD70265D33BA008B8BFE /* CreateTransactionRequestData.swift */; };
+		F1D6FE4B265D33BA008B8BFE /* AddCardToWhitelistRequestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD72265D33BA008B8BFE /* AddCardToWhitelistRequestData.swift */; };
+		F1D6FE4C265D33BA008B8BFE /* CheckCardRequestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD73265D33BA008B8BFE /* CheckCardRequestData.swift */; };
+		F1D6FE4D265D33BA008B8BFE /* CheckCardResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD74265D33BA008B8BFE /* CheckCardResponseData.swift */; };
+		F1D6FE4E265D33BA008B8BFE /* Commissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD75265D33BA008B8BFE /* Commissions.swift */; };
+		F1D6FE4F265D33BA008B8BFE /* PayPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD76265D33BA008B8BFE /* PayPoint.swift */; };
+		F1D6FE50265D33BA008B8BFE /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD77265D33BA008B8BFE /* Service.swift */; };
+		F1D6FE51265D33BA008B8BFE /* AuthSessionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD79265D33BA008B8BFE /* AuthSessionData.swift */; };
+		F1D6FE52265D33BA008B8BFE /* AuthRequestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD7A265D33BA008B8BFE /* AuthRequestData.swift */; };
+		F1D6FE53265D33BA008B8BFE /* AuthorizationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD7B265D33BA008B8BFE /* AuthorizationData.swift */; };
+		F1D6FE54265D33BA008B8BFE /* HostToHostFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD7C265D33BA008B8BFE /* HostToHostFields.swift */; };
+		F1D6FE55265D33BA008B8BFE /* ThreeDsVerification.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD7D265D33BA008B8BFE /* ThreeDsVerification.swift */; };
+		F1D6FE56265D33BA008B8BFE /* Commission.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD7E265D33BA008B8BFE /* Commission.swift */; };
+		F1D6FE57265D33BA008B8BFE /* BrowserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD7F265D33BA008B8BFE /* BrowserData.swift */; };
+		F1D6FE58265D33BA008B8BFE /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD80265D33BA008B8BFE /* Group.swift */; };
+		F1D6FE59265D33BA008B8BFE /* AccountInfoResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD82265D33BA008B8BFE /* AccountInfoResponseData.swift */; };
+		F1D6FE5A265D33BA008B8BFE /* AccountInfoRequestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD83265D33BA008B8BFE /* AccountInfoRequestData.swift */; };
+		F1D6FE5B265D33BA008B8BFE /* ServiceRequestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD85265D33BA008B8BFE /* ServiceRequestData.swift */; };
+		F1D6FE5C265D33BA008B8BFE /* ServiceListResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD86265D33BA008B8BFE /* ServiceListResponseData.swift */; };
+		F1D6FE5D265D33BA008B8BFE /* ServiceListRequestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD87265D33BA008B8BFE /* ServiceListRequestData.swift */; };
+		F1D6FE5E265D33BA008B8BFE /* ServiceResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD88265D33BA008B8BFE /* ServiceResponseData.swift */; };
+		F1D6FE5F265D33BA008B8BFE /* ServiceField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD89265D33BA008B8BFE /* ServiceField.swift */; };
+		F1D6FE60265D33BA008B8BFE /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD8A265D33BA008B8BFE /* Wallet.swift */; };
+		F1D6FE61265D33BA008B8BFE /* RechabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD8C265D33BA008B8BFE /* RechabilityManager.swift */; };
+		F1D6FE62265D33BA008B8BFE /* APIErrorValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD8D265D33BA008B8BFE /* APIErrorValidator.swift */; };
+		F1D6FE63265D33BA008B8BFE /* SerializerUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD8E265D33BA008B8BFE /* SerializerUtils.swift */; };
+		F1D6FE64265D33BA008B8BFE /* APIResponseValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD8F265D33BA008B8BFE /* APIResponseValidator.swift */; };
+		F1D6FE65265D33BA008B8BFE /* CancelTransactionEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD92265D33BA008B8BFE /* CancelTransactionEndpoint.swift */; };
+		F1D6FE66265D33BA008B8BFE /* PayTransactionEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD93265D33BA008B8BFE /* PayTransactionEndpoint.swift */; };
+		F1D6FE67265D33BA008B8BFE /* UpdateTransactionEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD94265D33BA008B8BFE /* UpdateTransactionEndpoint.swift */; };
+		F1D6FE68265D33BA008B8BFE /* CreateTransactionEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD95265D33BA008B8BFE /* CreateTransactionEndpoint.swift */; };
+		F1D6FE69265D33BA008B8BFE /* FindTransactionEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD96265D33BA008B8BFE /* FindTransactionEndpoint.swift */; };
+		F1D6FE6A265D33BA008B8BFE /* AddCardToWhitelistEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD98265D33BA008B8BFE /* AddCardToWhitelistEndpoint.swift */; };
+		F1D6FE6B265D33BA008B8BFE /* CheckCardEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD99265D33BA008B8BFE /* CheckCardEndpoint.swift */; };
+		F1D6FE6C265D33BA008B8BFE /* BaseEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD9A265D33BA008B8BFE /* BaseEndpoint.swift */; };
+		F1D6FE6D265D33BA008B8BFE /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD9B265D33BA008B8BFE /* APIEndpoint.swift */; };
+		F1D6FE6E265D33BA008B8BFE /* AccountInfoEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD9D265D33BA008B8BFE /* AccountInfoEndpoint.swift */; };
+		F1D6FE6F265D33BA008B8BFE /* ServiceListEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FD9F265D33BA008B8BFE /* ServiceListEndpoint.swift */; };
+		F1D6FE70265D33BA008B8BFE /* ServiceEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDA0265D33BA008B8BFE /* ServiceEndpoint.swift */; };
+		F1D6FE71265D33BA008B8BFE /* Alamofire+NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDA1265D33BA008B8BFE /* Alamofire+NetworkClient.swift */; };
+		F1D6FE72265D33BA008B8BFE /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDA3265D33BA008B8BFE /* APIError.swift */; };
+		F1D6FE73265D33BA008B8BFE /* APIErrorDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDA4265D33BA008B8BFE /* APIErrorDescription.swift */; };
+		F1D6FE74265D33BA008B8BFE /* ServiceUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDA6265D33BA008B8BFE /* ServiceUsecase.swift */; };
+		F1D6FE75265D33BA008B8BFE /* TransactionUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDA7265D33BA008B8BFE /* TransactionUsecase.swift */; };
+		F1D6FE76265D33BA008B8BFE /* CardUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDA8265D33BA008B8BFE /* CardUsecase.swift */; };
+		F1D6FE77265D33BA008B8BFE /* AccountUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDA9265D33BA008B8BFE /* AccountUsecase.swift */; };
+		F1D6FE78265D33BA008B8BFE /* ErrorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDAB265D33BA008B8BFE /* ErrorProtocol.swift */; };
+		F1D6FE79265D33BA008B8BFE /* AutoIndentifierCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDAC265D33BA008B8BFE /* AutoIndentifierCell.swift */; };
+		F1D6FE7A265D33BA008B8BFE /* CommonInitable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDAD265D33BA008B8BFE /* CommonInitable.swift */; };
+		F1D6FE7B265D33BA008B8BFE /* StoryboardInstantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDAE265D33BA008B8BFE /* StoryboardInstantiable.swift */; };
+		F1D6FE7C265D33BA008B8BFE /* UIWindow+SafeAreaSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDB1265D33BA008B8BFE /* UIWindow+SafeAreaSizes.swift */; };
+		F1D6FE7D265D33BA008B8BFE /* UIWindow+KeyWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDB2265D33BA008B8BFE /* UIWindow+KeyWindow.swift */; };
+		F1D6FE7E265D33BA008B8BFE /* UIColor+SDKColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDB4265D33BA008B8BFE /* UIColor+SDKColors.swift */; };
+		F1D6FE7F265D33BA008B8BFE /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDB5265D33BA008B8BFE /* UIColor+Hex.swift */; };
+		F1D6FE80265D33BA008B8BFE /* UIView+RoundCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDB7265D33BA008B8BFE /* UIView+RoundCorners.swift */; };
+		F1D6FE81265D33BA008B8BFE /* UIView+NibLoaded.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDB8265D33BA008B8BFE /* UIView+NibLoaded.swift */; };
+		F1D6FE82265D33BA008B8BFE /* NSRange+Deleting.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDBA265D33BA008B8BFE /* NSRange+Deleting.swift */; };
+		F1D6FE83265D33BA008B8BFE /* UIFont+Roboto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDBC265D33BA008B8BFE /* UIFont+Roboto.swift */; };
+		F1D6FE84265D33BA008B8BFE /* UIFont+SFPro.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDBD265D33BA008B8BFE /* UIFont+SFPro.swift */; };
+		F1D6FE85265D33BA008B8BFE /* UICollectionView+CellRegistration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDBF265D33BA008B8BFE /* UICollectionView+CellRegistration.swift */; };
+		F1D6FE86265D33BA008B8BFE /* UINavigationBar+Sizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDC1265D33BA008B8BFE /* UINavigationBar+Sizes.swift */; };
+		F1D6FE87265D33BA008B8BFE /* UIViewController+NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDC3265D33BA008B8BFE /* UIViewController+NavigationBar.swift */; };
+		F1D6FE88265D33BA008B8BFE /* UIViewController+StatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDC4265D33BA008B8BFE /* UIViewController+StatusBar.swift */; };
+		F1D6FE89265D33BA008B8BFE /* UINavigationController+RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDC6265D33BA008B8BFE /* UINavigationController+RootViewController.swift */; };
+		F1D6FE8A265D33BA008B8BFE /* UINavigationController+PopAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDC7265D33BA008B8BFE /* UINavigationController+PopAnimation.swift */; };
+		F1D6FE8B265D33BA008B8BFE /* UINavigationController+SwapTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDC8265D33BA008B8BFE /* UINavigationController+SwapTransition.swift */; };
+		F1D6FE8C265D33BA008B8BFE /* UINavigationController+AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDC9265D33BA008B8BFE /* UINavigationController+AlertController.swift */; };
+		F1D6FE8D265D33BA008B8BFE /* UITableView+CellRegistration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDCB265D33BA008B8BFE /* UITableView+CellRegistration.swift */; };
+		F1D6FE8E265D33BA008B8BFE /* NSObject+ClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDCD265D33BA008B8BFE /* NSObject+ClassName.swift */; };
+		F1D6FE8F265D33BA008B8BFE /* Error+Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDCF265D33BA008B8BFE /* Error+Code.swift */; };
+		F1D6FE90265D33BA008B8BFE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDD1265D33BA008B8BFE /* Constants.swift */; };
+		F1D6FE91265D33BA008B8BFE /* Constants+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDD2265D33BA008B8BFE /* Constants+UI.swift */; };
+		F1D6FE92265D33BA008B8BFE /* Constants+Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDD3265D33BA008B8BFE /* Constants+Notifications.swift */; };
+		F1D6FE93265D33BA008B8BFE /* SettlePayCardNameTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1D6FDD6265D33BA008B8BFE /* SettlePayCardNameTableViewCell.xib */; };
+		F1D6FE94265D33BA008B8BFE /* SettlePayCardDatesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1D6FDD7265D33BA008B8BFE /* SettlePayCardDatesTableViewCell.xib */; };
+		F1D6FE95265D33BA008B8BFE /* SettlePayActionButtonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1D6FDD8265D33BA008B8BFE /* SettlePayActionButtonTableViewCell.xib */; };
+		F1D6FE96265D33BA008B8BFE /* SettlePayCardCVVTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1D6FDD9265D33BA008B8BFE /* SettlePayCardCVVTableViewCell.xib */; };
+		F1D6FE97265D33BA008B8BFE /* SettlePayCardNumberTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1D6FDDA265D33BA008B8BFE /* SettlePayCardNumberTableViewCell.xib */; };
+		F1D6FE98265D33BA008B8BFE /* SettlePayCompaniesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1D6FDDB265D33BA008B8BFE /* SettlePayCompaniesTableViewCell.xib */; };
+		F1D6FE99265D33BA008B8BFE /* SettlePayGeneralSumTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1D6FDDC265D33BA008B8BFE /* SettlePayGeneralSumTableViewCell.xib */; };
+		F1D6FE9A265D33BA008B8BFE /* SettlePayGeneralTitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1D6FDDD265D33BA008B8BFE /* SettlePayGeneralTitleTableViewCell.xib */; };
+		F1D6FE9B265D33BA008B8BFE /* BorderedTextFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1D6FDDE265D33BA008B8BFE /* BorderedTextFieldView.xib */; };
+		F1D6FE9C265D33BA008B8BFE /* Web.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D6FDE1265D33BA008B8BFE /* Web.storyboard */; };
+		F1D6FE9D265D33BA008B8BFE /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDE2265D33BA008B8BFE /* WebViewController.swift */; };
+		F1D6FE9E265D33BA008B8BFE /* SettlePayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDE4265D33BA008B8BFE /* SettlePayViewController.swift */; };
+		F1D6FE9F265D33BA008B8BFE /* SettlePayUIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDE6265D33BA008B8BFE /* SettlePayUIViewModel.swift */; };
+		F1D6FEA0265D33BA008B8BFE /* Pay.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D6FDE7265D33BA008B8BFE /* Pay.storyboard */; };
+		F1D6FEA1265D33BA008B8BFE /* SettlePayViewController+CellsDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDE9265D33BA008B8BFE /* SettlePayViewController+CellsDelegates.swift */; };
+		F1D6FEA2265D33BA008B8BFE /* SettlePayViewController+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDEA265D33BA008B8BFE /* SettlePayViewController+UITableView.swift */; };
+		F1D6FEA3265D33BA008B8BFE /* SettlePayActionButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDED265D33BA008B8BFE /* SettlePayActionButtonTableViewCell.swift */; };
+		F1D6FEA4265D33BA008B8BFE /* SettlePayGeneralSumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDEF265D33BA008B8BFE /* SettlePayGeneralSumTableViewCell.swift */; };
+		F1D6FEA5265D33BA008B8BFE /* SettlePayCardDatesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDF1265D33BA008B8BFE /* SettlePayCardDatesTableViewCell.swift */; };
+		F1D6FEA6265D33BA008B8BFE /* SettlePayCompaniesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDF3265D33BA008B8BFE /* SettlePayCompaniesTableViewCell.swift */; };
+		F1D6FEA7265D33BA008B8BFE /* SettlePayCardNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDF5265D33BA008B8BFE /* SettlePayCardNameTableViewCell.swift */; };
+		F1D6FEA8265D33BA008B8BFE /* SettlePayCardNumberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDF7265D33BA008B8BFE /* SettlePayCardNumberTableViewCell.swift */; };
+		F1D6FEA9265D33BA008B8BFE /* SettlePayGeneralTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDF9265D33BA008B8BFE /* SettlePayGeneralTitleTableViewCell.swift */; };
+		F1D6FEAA265D33BA008B8BFE /* SettlePayCardCVVTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDFB265D33BA008B8BFE /* SettlePayCardCVVTableViewCell.swift */; };
+		F1D6FEAB265D33BA008B8BFE /* Scanner.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D6FDFD265D33BA008B8BFE /* Scanner.storyboard */; };
+		F1D6FEAC265D33BA008B8BFE /* SettleCardScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FDFE265D33BA008B8BFE /* SettleCardScannerViewController.swift */; };
+		F1D6FEAD265D33BA008B8BFE /* BorderedTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FE01265D33BA008B8BFE /* BorderedTextFieldView.swift */; };
+		F1D6FEAE265D33BA008B8BFE /* BorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FE04265D33BA008B8BFE /* BorderedButton.swift */; };
+		F1D6FEAF265D33BA008B8BFE /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FE05265D33BA008B8BFE /* RoundedButton.swift */; };
+		F1D6FEB0265D33BA008B8BFE /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FE06265D33BA008B8BFE /* BaseButton.swift */; };
+		F1D6FEB1265D33BA008B8BFE /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FE08265D33BA008B8BFE /* BaseViewController.swift */; };
+		F1D6FEB2265D33BA008B8BFE /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FE09265D33BA008B8BFE /* RootViewController.swift */; };
+		F1D6FEB3265D33BA008B8BFE /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FE0A265D33BA008B8BFE /* BaseNavigationController.swift */; };
+		F1D6FEB4265D33BA008B8BFE /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FE0C265D33BA008B8BFE /* RoundedView.swift */; };
+		F1D6FEB5265D33BA008B8BFE /* PaddedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FE0D265D33BA008B8BFE /* PaddedTextField.swift */; };
+		F1D6FEB6265D33BA008B8BFE /* BorderedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FE0E265D33BA008B8BFE /* BorderedView.swift */; };
+		F1D6FEB7265D33BA008B8BFE /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FE0F265D33BA008B8BFE /* BaseView.swift */; };
+		F1D6FEB8265D33BA008B8BFE /* PayerSDKHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FE13265D33BA008B8BFE /* PayerSDKHelper.swift */; };
+		F1D6FEB9265D33BA008B8BFE /* CryptoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FE14265D33BA008B8BFE /* CryptoHelper.swift */; };
+		F1D6FEBA265D33BA008B8BFE /* IPAdressHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FE15265D33BA008B8BFE /* IPAdressHelper.swift */; };
+		F1D6FEBB265D33BA008B8BFE /* BundleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6FE16265D33BA008B8BFE /* BundleHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F1D6FD24265D3371008B8BFE /* settlepay_ios_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = settlepay_ios_sdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1D6FD27265D3371008B8BFE /* settlepay_ios_sdk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = settlepay_ios_sdk.h; sourceTree = "<group>"; };
+		F1D6FD28265D3371008B8BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1D6FD33265D33BA008B8BFE /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		F1D6FD35265D33BA008B8BFE /* SF-Pro-Display-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Thin.otf"; sourceTree = "<group>"; };
+		F1D6FD36265D33BA008B8BFE /* SF-Pro-Display-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		F1D6FD37265D33BA008B8BFE /* SF-Pro-Display-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-RegularItalic.otf"; sourceTree = "<group>"; };
+		F1D6FD38265D33BA008B8BFE /* SF-Pro-Display-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Light.otf"; sourceTree = "<group>"; };
+		F1D6FD39265D33BA008B8BFE /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
+		F1D6FD3A265D33BA008B8BFE /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
+		F1D6FD3B265D33BA008B8BFE /* SF-Pro-Display-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Medium.otf"; sourceTree = "<group>"; };
+		F1D6FD3C265D33BA008B8BFE /* SF-Pro-Display-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Heavy.otf"; sourceTree = "<group>"; };
+		F1D6FD3D265D33BA008B8BFE /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
+		F1D6FD3E265D33BA008B8BFE /* SF-Pro-Display-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-MediumItalic.otf"; sourceTree = "<group>"; };
+		F1D6FD3F265D33BA008B8BFE /* SF-Pro-Display-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-HeavyItalic.otf"; sourceTree = "<group>"; };
+		F1D6FD40265D33BA008B8BFE /* SF-Pro-Display-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Ultralight.otf"; sourceTree = "<group>"; };
+		F1D6FD41265D33BA008B8BFE /* SF-Pro-Display-UltralightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-UltralightItalic.otf"; sourceTree = "<group>"; };
+		F1D6FD42265D33BA008B8BFE /* SF-Pro-Display-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-LightItalic.otf"; sourceTree = "<group>"; };
+		F1D6FD43265D33BA008B8BFE /* SF-Pro-Display-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-BlackItalic.otf"; sourceTree = "<group>"; };
+		F1D6FD44265D33BA008B8BFE /* SF-Pro-Display-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Black.otf"; sourceTree = "<group>"; };
+		F1D6FD45265D33BA008B8BFE /* SF-Pro-Display-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-ThinItalic.otf"; sourceTree = "<group>"; };
+		F1D6FD46265D33BA008B8BFE /* SF-Pro-Display-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-BoldItalic.otf"; sourceTree = "<group>"; };
+		F1D6FD48265D33BA008B8BFE /* HostToHostService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostToHostService.swift; sourceTree = "<group>"; };
+		F1D6FD49265D33BA008B8BFE /* CardTransferService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardTransferService.swift; sourceTree = "<group>"; };
+		F1D6FD4A265D33BA008B8BFE /* PaymentSDK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentSDK.swift; sourceTree = "<group>"; };
+		F1D6FD4B265D33BA008B8BFE /* BaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
+		F1D6FD4C265D33BA008B8BFE /* PaymentPageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentPageService.swift; sourceTree = "<group>"; };
+		F1D6FD4D265D33BA008B8BFE /* CardTokenizationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardTokenizationService.swift; sourceTree = "<group>"; };
+		F1D6FD50265D33BA008B8BFE /* AuthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		F1D6FD52265D33BA008B8BFE /* Core.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
+		F1D6FD55265D33BA008B8BFE /* AccountNetworkHandlerComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountNetworkHandlerComponent.swift; sourceTree = "<group>"; };
+		F1D6FD56265D33BA008B8BFE /* NetworkHandling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkHandling.swift; sourceTree = "<group>"; };
+		F1D6FD57265D33BA008B8BFE /* TransactionNetworkHandlerComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionNetworkHandlerComponent.swift; sourceTree = "<group>"; };
+		F1D6FD58265D33BA008B8BFE /* CardNetworkHandlerComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardNetworkHandlerComponent.swift; sourceTree = "<group>"; };
+		F1D6FD59265D33BA008B8BFE /* BaseNetworkHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNetworkHandler.swift; sourceTree = "<group>"; };
+		F1D6FD5A265D33BA008B8BFE /* ServiceNetworkHandlerComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceNetworkHandlerComponent.swift; sourceTree = "<group>"; };
+		F1D6FD5B265D33BA008B8BFE /* APIResponseSerializing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIResponseSerializing.swift; sourceTree = "<group>"; };
+		F1D6FD5D265D33BA008B8BFE /* APIClient+Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "APIClient+Transaction.swift"; sourceTree = "<group>"; };
+		F1D6FD5E265D33BA008B8BFE /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		F1D6FD5F265D33BA008B8BFE /* APIClient+Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "APIClient+Service.swift"; sourceTree = "<group>"; };
+		F1D6FD60265D33BA008B8BFE /* APIClient+ServerTrust.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "APIClient+ServerTrust.swift"; sourceTree = "<group>"; };
+		F1D6FD61265D33BA008B8BFE /* APIClient+Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "APIClient+Card.swift"; sourceTree = "<group>"; };
+		F1D6FD62265D33BA008B8BFE /* APIClient+Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "APIClient+Account.swift"; sourceTree = "<group>"; };
+		F1D6FD63265D33BA008B8BFE /* APIClient+SessionConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "APIClient+SessionConfiguration.swift"; sourceTree = "<group>"; };
+		F1D6FD64265D33BA008B8BFE /* APIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		F1D6FD67265D33BA008B8BFE /* FindTransactionRequestData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindTransactionRequestData.swift; sourceTree = "<group>"; };
+		F1D6FD68265D33BA008B8BFE /* PayTransactionRequestData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayTransactionRequestData.swift; sourceTree = "<group>"; };
+		F1D6FD69265D33BA008B8BFE /* UpdateTransactionResponseData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateTransactionResponseData.swift; sourceTree = "<group>"; };
+		F1D6FD6A265D33BA008B8BFE /* CancelTransactionResponseData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelTransactionResponseData.swift; sourceTree = "<group>"; };
+		F1D6FD6B265D33BA008B8BFE /* PayTransactionResponseData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayTransactionResponseData.swift; sourceTree = "<group>"; };
+		F1D6FD6C265D33BA008B8BFE /* CreateTransactionResponseData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTransactionResponseData.swift; sourceTree = "<group>"; };
+		F1D6FD6D265D33BA008B8BFE /* UpdateTransactionRequestData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateTransactionRequestData.swift; sourceTree = "<group>"; };
+		F1D6FD6E265D33BA008B8BFE /* CancelTransactionRequestData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelTransactionRequestData.swift; sourceTree = "<group>"; };
+		F1D6FD6F265D33BA008B8BFE /* FindTransactionResponseData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindTransactionResponseData.swift; sourceTree = "<group>"; };
+		F1D6FD70265D33BA008B8BFE /* CreateTransactionRequestData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTransactionRequestData.swift; sourceTree = "<group>"; };
+		F1D6FD72265D33BA008B8BFE /* AddCardToWhitelistRequestData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCardToWhitelistRequestData.swift; sourceTree = "<group>"; };
+		F1D6FD73265D33BA008B8BFE /* CheckCardRequestData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckCardRequestData.swift; sourceTree = "<group>"; };
+		F1D6FD74265D33BA008B8BFE /* CheckCardResponseData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckCardResponseData.swift; sourceTree = "<group>"; };
+		F1D6FD75265D33BA008B8BFE /* Commissions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Commissions.swift; sourceTree = "<group>"; };
+		F1D6FD76265D33BA008B8BFE /* PayPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayPoint.swift; sourceTree = "<group>"; };
+		F1D6FD77265D33BA008B8BFE /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		F1D6FD79265D33BA008B8BFE /* AuthSessionData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthSessionData.swift; sourceTree = "<group>"; };
+		F1D6FD7A265D33BA008B8BFE /* AuthRequestData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthRequestData.swift; sourceTree = "<group>"; };
+		F1D6FD7B265D33BA008B8BFE /* AuthorizationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationData.swift; sourceTree = "<group>"; };
+		F1D6FD7C265D33BA008B8BFE /* HostToHostFields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostToHostFields.swift; sourceTree = "<group>"; };
+		F1D6FD7D265D33BA008B8BFE /* ThreeDsVerification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeDsVerification.swift; sourceTree = "<group>"; };
+		F1D6FD7E265D33BA008B8BFE /* Commission.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Commission.swift; sourceTree = "<group>"; };
+		F1D6FD7F265D33BA008B8BFE /* BrowserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowserData.swift; sourceTree = "<group>"; };
+		F1D6FD80265D33BA008B8BFE /* Group.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		F1D6FD82265D33BA008B8BFE /* AccountInfoResponseData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountInfoResponseData.swift; sourceTree = "<group>"; };
+		F1D6FD83265D33BA008B8BFE /* AccountInfoRequestData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountInfoRequestData.swift; sourceTree = "<group>"; };
+		F1D6FD85265D33BA008B8BFE /* ServiceRequestData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceRequestData.swift; sourceTree = "<group>"; };
+		F1D6FD86265D33BA008B8BFE /* ServiceListResponseData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceListResponseData.swift; sourceTree = "<group>"; };
+		F1D6FD87265D33BA008B8BFE /* ServiceListRequestData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceListRequestData.swift; sourceTree = "<group>"; };
+		F1D6FD88265D33BA008B8BFE /* ServiceResponseData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceResponseData.swift; sourceTree = "<group>"; };
+		F1D6FD89265D33BA008B8BFE /* ServiceField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceField.swift; sourceTree = "<group>"; };
+		F1D6FD8A265D33BA008B8BFE /* Wallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
+		F1D6FD8C265D33BA008B8BFE /* RechabilityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RechabilityManager.swift; sourceTree = "<group>"; };
+		F1D6FD8D265D33BA008B8BFE /* APIErrorValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIErrorValidator.swift; sourceTree = "<group>"; };
+		F1D6FD8E265D33BA008B8BFE /* SerializerUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SerializerUtils.swift; sourceTree = "<group>"; };
+		F1D6FD8F265D33BA008B8BFE /* APIResponseValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIResponseValidator.swift; sourceTree = "<group>"; };
+		F1D6FD92265D33BA008B8BFE /* CancelTransactionEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelTransactionEndpoint.swift; sourceTree = "<group>"; };
+		F1D6FD93265D33BA008B8BFE /* PayTransactionEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayTransactionEndpoint.swift; sourceTree = "<group>"; };
+		F1D6FD94265D33BA008B8BFE /* UpdateTransactionEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateTransactionEndpoint.swift; sourceTree = "<group>"; };
+		F1D6FD95265D33BA008B8BFE /* CreateTransactionEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTransactionEndpoint.swift; sourceTree = "<group>"; };
+		F1D6FD96265D33BA008B8BFE /* FindTransactionEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindTransactionEndpoint.swift; sourceTree = "<group>"; };
+		F1D6FD98265D33BA008B8BFE /* AddCardToWhitelistEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCardToWhitelistEndpoint.swift; sourceTree = "<group>"; };
+		F1D6FD99265D33BA008B8BFE /* CheckCardEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckCardEndpoint.swift; sourceTree = "<group>"; };
+		F1D6FD9A265D33BA008B8BFE /* BaseEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseEndpoint.swift; sourceTree = "<group>"; };
+		F1D6FD9B265D33BA008B8BFE /* APIEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIEndpoint.swift; sourceTree = "<group>"; };
+		F1D6FD9D265D33BA008B8BFE /* AccountInfoEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountInfoEndpoint.swift; sourceTree = "<group>"; };
+		F1D6FD9F265D33BA008B8BFE /* ServiceListEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceListEndpoint.swift; sourceTree = "<group>"; };
+		F1D6FDA0265D33BA008B8BFE /* ServiceEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceEndpoint.swift; sourceTree = "<group>"; };
+		F1D6FDA1265D33BA008B8BFE /* Alamofire+NetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Alamofire+NetworkClient.swift"; sourceTree = "<group>"; };
+		F1D6FDA3265D33BA008B8BFE /* APIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		F1D6FDA4265D33BA008B8BFE /* APIErrorDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIErrorDescription.swift; sourceTree = "<group>"; };
+		F1D6FDA6265D33BA008B8BFE /* ServiceUsecase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceUsecase.swift; sourceTree = "<group>"; };
+		F1D6FDA7265D33BA008B8BFE /* TransactionUsecase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionUsecase.swift; sourceTree = "<group>"; };
+		F1D6FDA8265D33BA008B8BFE /* CardUsecase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardUsecase.swift; sourceTree = "<group>"; };
+		F1D6FDA9265D33BA008B8BFE /* AccountUsecase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountUsecase.swift; sourceTree = "<group>"; };
+		F1D6FDAB265D33BA008B8BFE /* ErrorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorProtocol.swift; sourceTree = "<group>"; };
+		F1D6FDAC265D33BA008B8BFE /* AutoIndentifierCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoIndentifierCell.swift; sourceTree = "<group>"; };
+		F1D6FDAD265D33BA008B8BFE /* CommonInitable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonInitable.swift; sourceTree = "<group>"; };
+		F1D6FDAE265D33BA008B8BFE /* StoryboardInstantiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiable.swift; sourceTree = "<group>"; };
+		F1D6FDB1265D33BA008B8BFE /* UIWindow+SafeAreaSizes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIWindow+SafeAreaSizes.swift"; sourceTree = "<group>"; };
+		F1D6FDB2265D33BA008B8BFE /* UIWindow+KeyWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIWindow+KeyWindow.swift"; sourceTree = "<group>"; };
+		F1D6FDB4265D33BA008B8BFE /* UIColor+SDKColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+SDKColors.swift"; sourceTree = "<group>"; };
+		F1D6FDB5265D33BA008B8BFE /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		F1D6FDB7265D33BA008B8BFE /* UIView+RoundCorners.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+RoundCorners.swift"; sourceTree = "<group>"; };
+		F1D6FDB8265D33BA008B8BFE /* UIView+NibLoaded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+NibLoaded.swift"; sourceTree = "<group>"; };
+		F1D6FDBA265D33BA008B8BFE /* NSRange+Deleting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSRange+Deleting.swift"; sourceTree = "<group>"; };
+		F1D6FDBC265D33BA008B8BFE /* UIFont+Roboto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Roboto.swift"; sourceTree = "<group>"; };
+		F1D6FDBD265D33BA008B8BFE /* UIFont+SFPro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+SFPro.swift"; sourceTree = "<group>"; };
+		F1D6FDBF265D33BA008B8BFE /* UICollectionView+CellRegistration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+CellRegistration.swift"; sourceTree = "<group>"; };
+		F1D6FDC1265D33BA008B8BFE /* UINavigationBar+Sizes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+Sizes.swift"; sourceTree = "<group>"; };
+		F1D6FDC3265D33BA008B8BFE /* UIViewController+NavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+NavigationBar.swift"; sourceTree = "<group>"; };
+		F1D6FDC4265D33BA008B8BFE /* UIViewController+StatusBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+StatusBar.swift"; sourceTree = "<group>"; };
+		F1D6FDC6265D33BA008B8BFE /* UINavigationController+RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+RootViewController.swift"; sourceTree = "<group>"; };
+		F1D6FDC7265D33BA008B8BFE /* UINavigationController+PopAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+PopAnimation.swift"; sourceTree = "<group>"; };
+		F1D6FDC8265D33BA008B8BFE /* UINavigationController+SwapTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+SwapTransition.swift"; sourceTree = "<group>"; };
+		F1D6FDC9265D33BA008B8BFE /* UINavigationController+AlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+AlertController.swift"; sourceTree = "<group>"; };
+		F1D6FDCB265D33BA008B8BFE /* UITableView+CellRegistration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+CellRegistration.swift"; sourceTree = "<group>"; };
+		F1D6FDCD265D33BA008B8BFE /* NSObject+ClassName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+ClassName.swift"; sourceTree = "<group>"; };
+		F1D6FDCF265D33BA008B8BFE /* Error+Code.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Error+Code.swift"; sourceTree = "<group>"; };
+		F1D6FDD1265D33BA008B8BFE /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F1D6FDD2265D33BA008B8BFE /* Constants+UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Constants+UI.swift"; sourceTree = "<group>"; };
+		F1D6FDD3265D33BA008B8BFE /* Constants+Notifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Constants+Notifications.swift"; sourceTree = "<group>"; };
+		F1D6FDD6265D33BA008B8BFE /* SettlePayCardNameTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettlePayCardNameTableViewCell.xib; sourceTree = "<group>"; };
+		F1D6FDD7265D33BA008B8BFE /* SettlePayCardDatesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettlePayCardDatesTableViewCell.xib; sourceTree = "<group>"; };
+		F1D6FDD8265D33BA008B8BFE /* SettlePayActionButtonTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettlePayActionButtonTableViewCell.xib; sourceTree = "<group>"; };
+		F1D6FDD9265D33BA008B8BFE /* SettlePayCardCVVTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettlePayCardCVVTableViewCell.xib; sourceTree = "<group>"; };
+		F1D6FDDA265D33BA008B8BFE /* SettlePayCardNumberTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettlePayCardNumberTableViewCell.xib; sourceTree = "<group>"; };
+		F1D6FDDB265D33BA008B8BFE /* SettlePayCompaniesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettlePayCompaniesTableViewCell.xib; sourceTree = "<group>"; };
+		F1D6FDDC265D33BA008B8BFE /* SettlePayGeneralSumTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettlePayGeneralSumTableViewCell.xib; sourceTree = "<group>"; };
+		F1D6FDDD265D33BA008B8BFE /* SettlePayGeneralTitleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettlePayGeneralTitleTableViewCell.xib; sourceTree = "<group>"; };
+		F1D6FDDE265D33BA008B8BFE /* BorderedTextFieldView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BorderedTextFieldView.xib; sourceTree = "<group>"; };
+		F1D6FDE1265D33BA008B8BFE /* Web.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Web.storyboard; sourceTree = "<group>"; };
+		F1D6FDE2265D33BA008B8BFE /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		F1D6FDE4265D33BA008B8BFE /* SettlePayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettlePayViewController.swift; sourceTree = "<group>"; };
+		F1D6FDE6265D33BA008B8BFE /* SettlePayUIViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettlePayUIViewModel.swift; sourceTree = "<group>"; };
+		F1D6FDE7265D33BA008B8BFE /* Pay.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Pay.storyboard; sourceTree = "<group>"; };
+		F1D6FDE9265D33BA008B8BFE /* SettlePayViewController+CellsDelegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SettlePayViewController+CellsDelegates.swift"; sourceTree = "<group>"; };
+		F1D6FDEA265D33BA008B8BFE /* SettlePayViewController+UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SettlePayViewController+UITableView.swift"; sourceTree = "<group>"; };
+		F1D6FDED265D33BA008B8BFE /* SettlePayActionButtonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettlePayActionButtonTableViewCell.swift; sourceTree = "<group>"; };
+		F1D6FDEF265D33BA008B8BFE /* SettlePayGeneralSumTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettlePayGeneralSumTableViewCell.swift; sourceTree = "<group>"; };
+		F1D6FDF1265D33BA008B8BFE /* SettlePayCardDatesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettlePayCardDatesTableViewCell.swift; sourceTree = "<group>"; };
+		F1D6FDF3265D33BA008B8BFE /* SettlePayCompaniesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettlePayCompaniesTableViewCell.swift; sourceTree = "<group>"; };
+		F1D6FDF5265D33BA008B8BFE /* SettlePayCardNameTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettlePayCardNameTableViewCell.swift; sourceTree = "<group>"; };
+		F1D6FDF7265D33BA008B8BFE /* SettlePayCardNumberTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettlePayCardNumberTableViewCell.swift; sourceTree = "<group>"; };
+		F1D6FDF9265D33BA008B8BFE /* SettlePayGeneralTitleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettlePayGeneralTitleTableViewCell.swift; sourceTree = "<group>"; };
+		F1D6FDFB265D33BA008B8BFE /* SettlePayCardCVVTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettlePayCardCVVTableViewCell.swift; sourceTree = "<group>"; };
+		F1D6FDFD265D33BA008B8BFE /* Scanner.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Scanner.storyboard; sourceTree = "<group>"; };
+		F1D6FDFE265D33BA008B8BFE /* SettleCardScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettleCardScannerViewController.swift; sourceTree = "<group>"; };
+		F1D6FE01265D33BA008B8BFE /* BorderedTextFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderedTextFieldView.swift; sourceTree = "<group>"; };
+		F1D6FE04265D33BA008B8BFE /* BorderedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderedButton.swift; sourceTree = "<group>"; };
+		F1D6FE05265D33BA008B8BFE /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		F1D6FE06265D33BA008B8BFE /* BaseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
+		F1D6FE08265D33BA008B8BFE /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		F1D6FE09265D33BA008B8BFE /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		F1D6FE0A265D33BA008B8BFE /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		F1D6FE0C265D33BA008B8BFE /* RoundedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
+		F1D6FE0D265D33BA008B8BFE /* PaddedTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddedTextField.swift; sourceTree = "<group>"; };
+		F1D6FE0E265D33BA008B8BFE /* BorderedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderedView.swift; sourceTree = "<group>"; };
+		F1D6FE0F265D33BA008B8BFE /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		F1D6FE13265D33BA008B8BFE /* PayerSDKHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayerSDKHelper.swift; sourceTree = "<group>"; };
+		F1D6FE14265D33BA008B8BFE /* CryptoHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoHelper.swift; sourceTree = "<group>"; };
+		F1D6FE15265D33BA008B8BFE /* IPAdressHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPAdressHelper.swift; sourceTree = "<group>"; };
+		F1D6FE16265D33BA008B8BFE /* BundleHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BundleHelper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1D6FD21265D3371008B8BFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1D6FD1A265D3371008B8BFE = {
+			isa = PBXGroup;
+			children = (
+				F1D6FD26265D3371008B8BFE /* settlepay-ios-sdk */,
+				F1D6FD25265D3371008B8BFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1D6FD25265D3371008B8BFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FD24265D3371008B8BFE /* settlepay_ios_sdk.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1D6FD26265D3371008B8BFE /* settlepay-ios-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FDD0265D33BA008B8BFE /* Constants */,
+				F1D6FD4E265D33BA008B8BFE /* Core */,
+				F1D6FDAF265D33BA008B8BFE /* Extensions */,
+				F1D6FE10265D33BA008B8BFE /* Libraries */,
+				F1D6FD53265D33BA008B8BFE /* Networking */,
+				F1D6FDAA265D33BA008B8BFE /* Protocols */,
+				F1D6FD30265D33BA008B8BFE /* Resources */,
+				F1D6FD47265D33BA008B8BFE /* SDK */,
+				F1D6FDD4265D33BA008B8BFE /* UI */,
+				F1D6FD27265D3371008B8BFE /* settlepay_ios_sdk.h */,
+				F1D6FD28265D3371008B8BFE /* Info.plist */,
+			);
+			path = "settlepay-ios-sdk";
+			sourceTree = "<group>";
+		};
+		F1D6FD30265D33BA008B8BFE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FD31265D33BA008B8BFE /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F1D6FD31265D33BA008B8BFE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FD32265D33BA008B8BFE /* Roboto */,
+				F1D6FD34265D33BA008B8BFE /* SF Pro Display */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F1D6FD32265D33BA008B8BFE /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FD33265D33BA008B8BFE /* Roboto-Medium.ttf */,
+			);
+			path = Roboto;
+			sourceTree = "<group>";
+		};
+		F1D6FD34265D33BA008B8BFE /* SF Pro Display */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FD35265D33BA008B8BFE /* SF-Pro-Display-Thin.otf */,
+				F1D6FD36265D33BA008B8BFE /* SF-Pro-Display-SemiboldItalic.otf */,
+				F1D6FD37265D33BA008B8BFE /* SF-Pro-Display-RegularItalic.otf */,
+				F1D6FD38265D33BA008B8BFE /* SF-Pro-Display-Light.otf */,
+				F1D6FD39265D33BA008B8BFE /* SF-Pro-Display-Regular.otf */,
+				F1D6FD3A265D33BA008B8BFE /* SF-Pro-Display-Bold.otf */,
+				F1D6FD3B265D33BA008B8BFE /* SF-Pro-Display-Medium.otf */,
+				F1D6FD3C265D33BA008B8BFE /* SF-Pro-Display-Heavy.otf */,
+				F1D6FD3D265D33BA008B8BFE /* SF-Pro-Display-Semibold.otf */,
+				F1D6FD3E265D33BA008B8BFE /* SF-Pro-Display-MediumItalic.otf */,
+				F1D6FD3F265D33BA008B8BFE /* SF-Pro-Display-HeavyItalic.otf */,
+				F1D6FD40265D33BA008B8BFE /* SF-Pro-Display-Ultralight.otf */,
+				F1D6FD41265D33BA008B8BFE /* SF-Pro-Display-UltralightItalic.otf */,
+				F1D6FD42265D33BA008B8BFE /* SF-Pro-Display-LightItalic.otf */,
+				F1D6FD43265D33BA008B8BFE /* SF-Pro-Display-BlackItalic.otf */,
+				F1D6FD44265D33BA008B8BFE /* SF-Pro-Display-Black.otf */,
+				F1D6FD45265D33BA008B8BFE /* SF-Pro-Display-ThinItalic.otf */,
+				F1D6FD46265D33BA008B8BFE /* SF-Pro-Display-BoldItalic.otf */,
+			);
+			path = "SF Pro Display";
+			sourceTree = "<group>";
+		};
+		F1D6FD47265D33BA008B8BFE /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FD48265D33BA008B8BFE /* HostToHostService.swift */,
+				F1D6FD49265D33BA008B8BFE /* CardTransferService.swift */,
+				F1D6FD4A265D33BA008B8BFE /* PaymentSDK.swift */,
+				F1D6FD4B265D33BA008B8BFE /* BaseService.swift */,
+				F1D6FD4C265D33BA008B8BFE /* PaymentPageService.swift */,
+				F1D6FD4D265D33BA008B8BFE /* CardTokenizationService.swift */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		F1D6FD4E265D33BA008B8BFE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FD4F265D33BA008B8BFE /* Managers */,
+				F1D6FD52265D33BA008B8BFE /* Core.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F1D6FD4F265D33BA008B8BFE /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FD50265D33BA008B8BFE /* AuthManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		F1D6FD53265D33BA008B8BFE /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FD54265D33BA008B8BFE /* NetworkHandlers */,
+				F1D6FD5B265D33BA008B8BFE /* APIResponseSerializing.swift */,
+				F1D6FD5C265D33BA008B8BFE /* APIClient */,
+				F1D6FD64265D33BA008B8BFE /* APIConstants.swift */,
+				F1D6FD65265D33BA008B8BFE /* Models */,
+				F1D6FD8B265D33BA008B8BFE /* Utilities */,
+				F1D6FD8F265D33BA008B8BFE /* APIResponseValidator.swift */,
+				F1D6FD90265D33BA008B8BFE /* Endpoint */,
+				F1D6FDA1265D33BA008B8BFE /* Alamofire+NetworkClient.swift */,
+				F1D6FDA2265D33BA008B8BFE /* Error */,
+				F1D6FDA5265D33BA008B8BFE /* Usecases */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		F1D6FD54265D33BA008B8BFE /* NetworkHandlers */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FD55265D33BA008B8BFE /* AccountNetworkHandlerComponent.swift */,
+				F1D6FD56265D33BA008B8BFE /* NetworkHandling.swift */,
+				F1D6FD57265D33BA008B8BFE /* TransactionNetworkHandlerComponent.swift */,
+				F1D6FD58265D33BA008B8BFE /* CardNetworkHandlerComponent.swift */,
+				F1D6FD59265D33BA008B8BFE /* BaseNetworkHandler.swift */,
+				F1D6FD5A265D33BA008B8BFE /* ServiceNetworkHandlerComponent.swift */,
+			);
+			path = NetworkHandlers;
+			sourceTree = "<group>";
+		};
+		F1D6FD5C265D33BA008B8BFE /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FD5D265D33BA008B8BFE /* APIClient+Transaction.swift */,
+				F1D6FD5E265D33BA008B8BFE /* APIClient.swift */,
+				F1D6FD5F265D33BA008B8BFE /* APIClient+Service.swift */,
+				F1D6FD60265D33BA008B8BFE /* APIClient+ServerTrust.swift */,
+				F1D6FD61265D33BA008B8BFE /* APIClient+Card.swift */,
+				F1D6FD62265D33BA008B8BFE /* APIClient+Account.swift */,
+				F1D6FD63265D33BA008B8BFE /* APIClient+SessionConfiguration.swift */,
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
+		F1D6FD65265D33BA008B8BFE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FD66265D33BA008B8BFE /* Transaction */,
+				F1D6FD71265D33BA008B8BFE /* Card */,
+				F1D6FD75265D33BA008B8BFE /* Commissions.swift */,
+				F1D6FD76265D33BA008B8BFE /* PayPoint.swift */,
+				F1D6FD77265D33BA008B8BFE /* Service.swift */,
+				F1D6FD78265D33BA008B8BFE /* Auth */,
+				F1D6FD7C265D33BA008B8BFE /* HostToHostFields.swift */,
+				F1D6FD7D265D33BA008B8BFE /* ThreeDsVerification.swift */,
+				F1D6FD7E265D33BA008B8BFE /* Commission.swift */,
+				F1D6FD7F265D33BA008B8BFE /* BrowserData.swift */,
+				F1D6FD80265D33BA008B8BFE /* Group.swift */,
+				F1D6FD81265D33BA008B8BFE /* Account */,
+				F1D6FD84265D33BA008B8BFE /* Service */,
+				F1D6FD89265D33BA008B8BFE /* ServiceField.swift */,
+				F1D6FD8A265D33BA008B8BFE /* Wallet.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F1D6FD66265D33BA008B8BFE /* Transaction */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FD67265D33BA008B8BFE /* FindTransactionRequestData.swift */,
+				F1D6FD68265D33BA008B8BFE /* PayTransactionRequestData.swift */,
+				F1D6FD69265D33BA008B8BFE /* UpdateTransactionResponseData.swift */,
+				F1D6FD6A265D33BA008B8BFE /* CancelTransactionResponseData.swift */,
+				F1D6FD6B265D33BA008B8BFE /* PayTransactionResponseData.swift */,
+				F1D6FD6C265D33BA008B8BFE /* CreateTransactionResponseData.swift */,
+				F1D6FD6D265D33BA008B8BFE /* UpdateTransactionRequestData.swift */,
+				F1D6FD6E265D33BA008B8BFE /* CancelTransactionRequestData.swift */,
+				F1D6FD6F265D33BA008B8BFE /* FindTransactionResponseData.swift */,
+				F1D6FD70265D33BA008B8BFE /* CreateTransactionRequestData.swift */,
+			);
+			path = Transaction;
+			sourceTree = "<group>";
+		};
+		F1D6FD71265D33BA008B8BFE /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FD72265D33BA008B8BFE /* AddCardToWhitelistRequestData.swift */,
+				F1D6FD73265D33BA008B8BFE /* CheckCardRequestData.swift */,
+				F1D6FD74265D33BA008B8BFE /* CheckCardResponseData.swift */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		F1D6FD78265D33BA008B8BFE /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FD79265D33BA008B8BFE /* AuthSessionData.swift */,
+				F1D6FD7A265D33BA008B8BFE /* AuthRequestData.swift */,
+				F1D6FD7B265D33BA008B8BFE /* AuthorizationData.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		F1D6FD81265D33BA008B8BFE /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FD82265D33BA008B8BFE /* AccountInfoResponseData.swift */,
+				F1D6FD83265D33BA008B8BFE /* AccountInfoRequestData.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		F1D6FD84265D33BA008B8BFE /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FD85265D33BA008B8BFE /* ServiceRequestData.swift */,
+				F1D6FD86265D33BA008B8BFE /* ServiceListResponseData.swift */,
+				F1D6FD87265D33BA008B8BFE /* ServiceListRequestData.swift */,
+				F1D6FD88265D33BA008B8BFE /* ServiceResponseData.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F1D6FD8B265D33BA008B8BFE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FD8C265D33BA008B8BFE /* RechabilityManager.swift */,
+				F1D6FD8D265D33BA008B8BFE /* APIErrorValidator.swift */,
+				F1D6FD8E265D33BA008B8BFE /* SerializerUtils.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F1D6FD90265D33BA008B8BFE /* Endpoint */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FD91265D33BA008B8BFE /* Transaction */,
+				F1D6FD97265D33BA008B8BFE /* Card */,
+				F1D6FD9A265D33BA008B8BFE /* BaseEndpoint.swift */,
+				F1D6FD9B265D33BA008B8BFE /* APIEndpoint.swift */,
+				F1D6FD9C265D33BA008B8BFE /* Account */,
+				F1D6FD9E265D33BA008B8BFE /* Service */,
+			);
+			path = Endpoint;
+			sourceTree = "<group>";
+		};
+		F1D6FD91265D33BA008B8BFE /* Transaction */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FD92265D33BA008B8BFE /* CancelTransactionEndpoint.swift */,
+				F1D6FD93265D33BA008B8BFE /* PayTransactionEndpoint.swift */,
+				F1D6FD94265D33BA008B8BFE /* UpdateTransactionEndpoint.swift */,
+				F1D6FD95265D33BA008B8BFE /* CreateTransactionEndpoint.swift */,
+				F1D6FD96265D33BA008B8BFE /* FindTransactionEndpoint.swift */,
+			);
+			path = Transaction;
+			sourceTree = "<group>";
+		};
+		F1D6FD97265D33BA008B8BFE /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FD98265D33BA008B8BFE /* AddCardToWhitelistEndpoint.swift */,
+				F1D6FD99265D33BA008B8BFE /* CheckCardEndpoint.swift */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		F1D6FD9C265D33BA008B8BFE /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FD9D265D33BA008B8BFE /* AccountInfoEndpoint.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		F1D6FD9E265D33BA008B8BFE /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FD9F265D33BA008B8BFE /* ServiceListEndpoint.swift */,
+				F1D6FDA0265D33BA008B8BFE /* ServiceEndpoint.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F1D6FDA2265D33BA008B8BFE /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FDA3265D33BA008B8BFE /* APIError.swift */,
+				F1D6FDA4265D33BA008B8BFE /* APIErrorDescription.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		F1D6FDA5265D33BA008B8BFE /* Usecases */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FDA6265D33BA008B8BFE /* ServiceUsecase.swift */,
+				F1D6FDA7265D33BA008B8BFE /* TransactionUsecase.swift */,
+				F1D6FDA8265D33BA008B8BFE /* CardUsecase.swift */,
+				F1D6FDA9265D33BA008B8BFE /* AccountUsecase.swift */,
+			);
+			path = Usecases;
+			sourceTree = "<group>";
+		};
+		F1D6FDAA265D33BA008B8BFE /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FDAB265D33BA008B8BFE /* ErrorProtocol.swift */,
+				F1D6FDAC265D33BA008B8BFE /* AutoIndentifierCell.swift */,
+				F1D6FDAD265D33BA008B8BFE /* CommonInitable.swift */,
+				F1D6FDAE265D33BA008B8BFE /* StoryboardInstantiable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		F1D6FDAF265D33BA008B8BFE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FDB0265D33BA008B8BFE /* UIWindow */,
+				F1D6FDB3265D33BA008B8BFE /* UIColor */,
+				F1D6FDB6265D33BA008B8BFE /* UIView */,
+				F1D6FDB9265D33BA008B8BFE /* NSRange */,
+				F1D6FDBB265D33BA008B8BFE /* UIFont */,
+				F1D6FDBE265D33BA008B8BFE /* UICollectionView */,
+				F1D6FDC0265D33BA008B8BFE /* UINavigationBar */,
+				F1D6FDC2265D33BA008B8BFE /* UIViewController */,
+				F1D6FDC5265D33BA008B8BFE /* UINavigationController */,
+				F1D6FDCA265D33BA008B8BFE /* UITableView */,
+				F1D6FDCC265D33BA008B8BFE /* NSObject */,
+				F1D6FDCE265D33BA008B8BFE /* Error */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F1D6FDB0265D33BA008B8BFE /* UIWindow */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FDB1265D33BA008B8BFE /* UIWindow+SafeAreaSizes.swift */,
+				F1D6FDB2265D33BA008B8BFE /* UIWindow+KeyWindow.swift */,
+			);
+			path = UIWindow;
+			sourceTree = "<group>";
+		};
+		F1D6FDB3265D33BA008B8BFE /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FDB4265D33BA008B8BFE /* UIColor+SDKColors.swift */,
+				F1D6FDB5265D33BA008B8BFE /* UIColor+Hex.swift */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		F1D6FDB6265D33BA008B8BFE /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FDB7265D33BA008B8BFE /* UIView+RoundCorners.swift */,
+				F1D6FDB8265D33BA008B8BFE /* UIView+NibLoaded.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		F1D6FDB9265D33BA008B8BFE /* NSRange */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FDBA265D33BA008B8BFE /* NSRange+Deleting.swift */,
+			);
+			path = NSRange;
+			sourceTree = "<group>";
+		};
+		F1D6FDBB265D33BA008B8BFE /* UIFont */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FDBC265D33BA008B8BFE /* UIFont+Roboto.swift */,
+				F1D6FDBD265D33BA008B8BFE /* UIFont+SFPro.swift */,
+			);
+			path = UIFont;
+			sourceTree = "<group>";
+		};
+		F1D6FDBE265D33BA008B8BFE /* UICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FDBF265D33BA008B8BFE /* UICollectionView+CellRegistration.swift */,
+			);
+			path = UICollectionView;
+			sourceTree = "<group>";
+		};
+		F1D6FDC0265D33BA008B8BFE /* UINavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FDC1265D33BA008B8BFE /* UINavigationBar+Sizes.swift */,
+			);
+			path = UINavigationBar;
+			sourceTree = "<group>";
+		};
+		F1D6FDC2265D33BA008B8BFE /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FDC3265D33BA008B8BFE /* UIViewController+NavigationBar.swift */,
+				F1D6FDC4265D33BA008B8BFE /* UIViewController+StatusBar.swift */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		F1D6FDC5265D33BA008B8BFE /* UINavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FDC6265D33BA008B8BFE /* UINavigationController+RootViewController.swift */,
+				F1D6FDC7265D33BA008B8BFE /* UINavigationController+PopAnimation.swift */,
+				F1D6FDC8265D33BA008B8BFE /* UINavigationController+SwapTransition.swift */,
+				F1D6FDC9265D33BA008B8BFE /* UINavigationController+AlertController.swift */,
+			);
+			path = UINavigationController;
+			sourceTree = "<group>";
+		};
+		F1D6FDCA265D33BA008B8BFE /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FDCB265D33BA008B8BFE /* UITableView+CellRegistration.swift */,
+			);
+			path = UITableView;
+			sourceTree = "<group>";
+		};
+		F1D6FDCC265D33BA008B8BFE /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FDCD265D33BA008B8BFE /* NSObject+ClassName.swift */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		F1D6FDCE265D33BA008B8BFE /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FDCF265D33BA008B8BFE /* Error+Code.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		F1D6FDD0265D33BA008B8BFE /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FDD1265D33BA008B8BFE /* Constants.swift */,
+				F1D6FDD2265D33BA008B8BFE /* Constants+UI.swift */,
+				F1D6FDD3265D33BA008B8BFE /* Constants+Notifications.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		F1D6FDD4265D33BA008B8BFE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FDD5265D33BA008B8BFE /* Xibs */,
+				F1D6FDDF265D33BA008B8BFE /* Screens */,
+				F1D6FDFF265D33BA008B8BFE /* Views */,
+				F1D6FE02265D33BA008B8BFE /* Base */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		F1D6FDD5265D33BA008B8BFE /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FDD6265D33BA008B8BFE /* SettlePayCardNameTableViewCell.xib */,
+				F1D6FDD7265D33BA008B8BFE /* SettlePayCardDatesTableViewCell.xib */,
+				F1D6FDD8265D33BA008B8BFE /* SettlePayActionButtonTableViewCell.xib */,
+				F1D6FDD9265D33BA008B8BFE /* SettlePayCardCVVTableViewCell.xib */,
+				F1D6FDDA265D33BA008B8BFE /* SettlePayCardNumberTableViewCell.xib */,
+				F1D6FDDB265D33BA008B8BFE /* SettlePayCompaniesTableViewCell.xib */,
+				F1D6FDDC265D33BA008B8BFE /* SettlePayGeneralSumTableViewCell.xib */,
+				F1D6FDDD265D33BA008B8BFE /* SettlePayGeneralTitleTableViewCell.xib */,
+				F1D6FDDE265D33BA008B8BFE /* BorderedTextFieldView.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		F1D6FDDF265D33BA008B8BFE /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FDE0265D33BA008B8BFE /* Web */,
+				F1D6FDE3265D33BA008B8BFE /* Pay */,
+				F1D6FDFC265D33BA008B8BFE /* Scanner */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		F1D6FDE0265D33BA008B8BFE /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FDE1265D33BA008B8BFE /* Web.storyboard */,
+				F1D6FDE2265D33BA008B8BFE /* WebViewController.swift */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
+		F1D6FDE3265D33BA008B8BFE /* Pay */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FDE4265D33BA008B8BFE /* SettlePayViewController.swift */,
+				F1D6FDE5265D33BA008B8BFE /* ViewModel */,
+				F1D6FDE7265D33BA008B8BFE /* Pay.storyboard */,
+				F1D6FDE8265D33BA008B8BFE /* Extensions */,
+				F1D6FDEB265D33BA008B8BFE /* Views */,
+			);
+			path = Pay;
+			sourceTree = "<group>";
+		};
+		F1D6FDE5265D33BA008B8BFE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FDE6265D33BA008B8BFE /* SettlePayUIViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F1D6FDE8265D33BA008B8BFE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FDE9265D33BA008B8BFE /* SettlePayViewController+CellsDelegates.swift */,
+				F1D6FDEA265D33BA008B8BFE /* SettlePayViewController+UITableView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F1D6FDEB265D33BA008B8BFE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FDEC265D33BA008B8BFE /* SettlePayActionButtonTableViewCell */,
+				F1D6FDEE265D33BA008B8BFE /* SettlePayGeneralSumTableViewCell */,
+				F1D6FDF0265D33BA008B8BFE /* SettlePayCardDatesTableViewCell */,
+				F1D6FDF2265D33BA008B8BFE /* SettlePayCompaniesTableViewCell */,
+				F1D6FDF4265D33BA008B8BFE /* SettlePayCardNameTableViewCell */,
+				F1D6FDF6265D33BA008B8BFE /* SettlePayCardNumberTableViewCell */,
+				F1D6FDF8265D33BA008B8BFE /* SettlePayGeneralTitleTableViewCell */,
+				F1D6FDFA265D33BA008B8BFE /* SettlePayCardCVVTableViewCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F1D6FDEC265D33BA008B8BFE /* SettlePayActionButtonTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FDED265D33BA008B8BFE /* SettlePayActionButtonTableViewCell.swift */,
+			);
+			path = SettlePayActionButtonTableViewCell;
+			sourceTree = "<group>";
+		};
+		F1D6FDEE265D33BA008B8BFE /* SettlePayGeneralSumTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FDEF265D33BA008B8BFE /* SettlePayGeneralSumTableViewCell.swift */,
+			);
+			path = SettlePayGeneralSumTableViewCell;
+			sourceTree = "<group>";
+		};
+		F1D6FDF0265D33BA008B8BFE /* SettlePayCardDatesTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FDF1265D33BA008B8BFE /* SettlePayCardDatesTableViewCell.swift */,
+			);
+			path = SettlePayCardDatesTableViewCell;
+			sourceTree = "<group>";
+		};
+		F1D6FDF2265D33BA008B8BFE /* SettlePayCompaniesTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FDF3265D33BA008B8BFE /* SettlePayCompaniesTableViewCell.swift */,
+			);
+			path = SettlePayCompaniesTableViewCell;
+			sourceTree = "<group>";
+		};
+		F1D6FDF4265D33BA008B8BFE /* SettlePayCardNameTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FDF5265D33BA008B8BFE /* SettlePayCardNameTableViewCell.swift */,
+			);
+			path = SettlePayCardNameTableViewCell;
+			sourceTree = "<group>";
+		};
+		F1D6FDF6265D33BA008B8BFE /* SettlePayCardNumberTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FDF7265D33BA008B8BFE /* SettlePayCardNumberTableViewCell.swift */,
+			);
+			path = SettlePayCardNumberTableViewCell;
+			sourceTree = "<group>";
+		};
+		F1D6FDF8265D33BA008B8BFE /* SettlePayGeneralTitleTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FDF9265D33BA008B8BFE /* SettlePayGeneralTitleTableViewCell.swift */,
+			);
+			path = SettlePayGeneralTitleTableViewCell;
+			sourceTree = "<group>";
+		};
+		F1D6FDFA265D33BA008B8BFE /* SettlePayCardCVVTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FDFB265D33BA008B8BFE /* SettlePayCardCVVTableViewCell.swift */,
+			);
+			path = SettlePayCardCVVTableViewCell;
+			sourceTree = "<group>";
+		};
+		F1D6FDFC265D33BA008B8BFE /* Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FDFD265D33BA008B8BFE /* Scanner.storyboard */,
+				F1D6FDFE265D33BA008B8BFE /* SettleCardScannerViewController.swift */,
+			);
+			path = Scanner;
+			sourceTree = "<group>";
+		};
+		F1D6FDFF265D33BA008B8BFE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FE00265D33BA008B8BFE /* BorderedTextFieldView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F1D6FE00265D33BA008B8BFE /* BorderedTextFieldView */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FE01265D33BA008B8BFE /* BorderedTextFieldView.swift */,
+			);
+			path = BorderedTextFieldView;
+			sourceTree = "<group>";
+		};
+		F1D6FE02265D33BA008B8BFE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FE03265D33BA008B8BFE /* Controls */,
+				F1D6FE07265D33BA008B8BFE /* Controllers */,
+				F1D6FE0B265D33BA008B8BFE /* Views */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F1D6FE03265D33BA008B8BFE /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FE04265D33BA008B8BFE /* BorderedButton.swift */,
+				F1D6FE05265D33BA008B8BFE /* RoundedButton.swift */,
+				F1D6FE06265D33BA008B8BFE /* BaseButton.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		F1D6FE07265D33BA008B8BFE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FE08265D33BA008B8BFE /* BaseViewController.swift */,
+				F1D6FE09265D33BA008B8BFE /* RootViewController.swift */,
+				F1D6FE0A265D33BA008B8BFE /* BaseNavigationController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F1D6FE0B265D33BA008B8BFE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FE0C265D33BA008B8BFE /* RoundedView.swift */,
+				F1D6FE0D265D33BA008B8BFE /* PaddedTextField.swift */,
+				F1D6FE0E265D33BA008B8BFE /* BorderedView.swift */,
+				F1D6FE0F265D33BA008B8BFE /* BaseView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F1D6FE10265D33BA008B8BFE /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FE11265D33BA008B8BFE /* Utilities */,
+				F1D6FE12265D33BA008B8BFE /* Helpers */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		F1D6FE11265D33BA008B8BFE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F1D6FE12265D33BA008B8BFE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6FE13265D33BA008B8BFE /* PayerSDKHelper.swift */,
+				F1D6FE14265D33BA008B8BFE /* CryptoHelper.swift */,
+				F1D6FE15265D33BA008B8BFE /* IPAdressHelper.swift */,
+				F1D6FE16265D33BA008B8BFE /* BundleHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F1D6FD1F265D3371008B8BFE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D6FD29265D3371008B8BFE /* settlepay_ios_sdk.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F1D6FD23265D3371008B8BFE /* settlepay-ios-sdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1D6FD2C265D3371008B8BFE /* Build configuration list for PBXNativeTarget "settlepay-ios-sdk" */;
+			buildPhases = (
+				F1D6FD1F265D3371008B8BFE /* Headers */,
+				F1D6FD20265D3371008B8BFE /* Sources */,
+				F1D6FD21265D3371008B8BFE /* Frameworks */,
+				F1D6FD22265D3371008B8BFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "settlepay-ios-sdk";
+			productName = "settlepay-ios-sdk";
+			productReference = F1D6FD24265D3371008B8BFE /* settlepay_ios_sdk.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1D6FD1B265D3371008B8BFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F1D6FD23265D3371008B8BFE = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = F1D6FD1E265D3371008B8BFE /* Build configuration list for PBXProject "settlepay-ios-sdk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1D6FD1A265D3371008B8BFE;
+			productRefGroup = F1D6FD25265D3371008B8BFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1D6FD23265D3371008B8BFE /* settlepay-ios-sdk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1D6FD22265D3371008B8BFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D6FE1E265D33BA008B8BFE /* SF-Pro-Display-Medium.otf in Resources */,
+				F1D6FE1A265D33BA008B8BFE /* SF-Pro-Display-RegularItalic.otf in Resources */,
+				F1D6FE25265D33BA008B8BFE /* SF-Pro-Display-LightItalic.otf in Resources */,
+				F1D6FEA0265D33BA008B8BFE /* Pay.storyboard in Resources */,
+				F1D6FE95265D33BA008B8BFE /* SettlePayActionButtonTableViewCell.xib in Resources */,
+				F1D6FE20265D33BA008B8BFE /* SF-Pro-Display-Semibold.otf in Resources */,
+				F1D6FE28265D33BA008B8BFE /* SF-Pro-Display-ThinItalic.otf in Resources */,
+				F1D6FE1B265D33BA008B8BFE /* SF-Pro-Display-Light.otf in Resources */,
+				F1D6FE18265D33BA008B8BFE /* SF-Pro-Display-Thin.otf in Resources */,
+				F1D6FE97265D33BA008B8BFE /* SettlePayCardNumberTableViewCell.xib in Resources */,
+				F1D6FE9B265D33BA008B8BFE /* BorderedTextFieldView.xib in Resources */,
+				F1D6FE17265D33BA008B8BFE /* Roboto-Medium.ttf in Resources */,
+				F1D6FE96265D33BA008B8BFE /* SettlePayCardCVVTableViewCell.xib in Resources */,
+				F1D6FE21265D33BA008B8BFE /* SF-Pro-Display-MediumItalic.otf in Resources */,
+				F1D6FE24265D33BA008B8BFE /* SF-Pro-Display-UltralightItalic.otf in Resources */,
+				F1D6FE93265D33BA008B8BFE /* SettlePayCardNameTableViewCell.xib in Resources */,
+				F1D6FE9A265D33BA008B8BFE /* SettlePayGeneralTitleTableViewCell.xib in Resources */,
+				F1D6FE22265D33BA008B8BFE /* SF-Pro-Display-HeavyItalic.otf in Resources */,
+				F1D6FE1D265D33BA008B8BFE /* SF-Pro-Display-Bold.otf in Resources */,
+				F1D6FE99265D33BA008B8BFE /* SettlePayGeneralSumTableViewCell.xib in Resources */,
+				F1D6FE1C265D33BA008B8BFE /* SF-Pro-Display-Regular.otf in Resources */,
+				F1D6FE94265D33BA008B8BFE /* SettlePayCardDatesTableViewCell.xib in Resources */,
+				F1D6FE19265D33BA008B8BFE /* SF-Pro-Display-SemiboldItalic.otf in Resources */,
+				F1D6FE9C265D33BA008B8BFE /* Web.storyboard in Resources */,
+				F1D6FE29265D33BA008B8BFE /* SF-Pro-Display-BoldItalic.otf in Resources */,
+				F1D6FE1F265D33BA008B8BFE /* SF-Pro-Display-Heavy.otf in Resources */,
+				F1D6FEAB265D33BA008B8BFE /* Scanner.storyboard in Resources */,
+				F1D6FE23265D33BA008B8BFE /* SF-Pro-Display-Ultralight.otf in Resources */,
+				F1D6FE98265D33BA008B8BFE /* SettlePayCompaniesTableViewCell.xib in Resources */,
+				F1D6FE27265D33BA008B8BFE /* SF-Pro-Display-Black.otf in Resources */,
+				F1D6FE26265D33BA008B8BFE /* SF-Pro-Display-BlackItalic.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1D6FD20265D3371008B8BFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D6FE8A265D33BA008B8BFE /* UINavigationController+PopAnimation.swift in Sources */,
+				F1D6FE69265D33BA008B8BFE /* FindTransactionEndpoint.swift in Sources */,
+				F1D6FE4B265D33BA008B8BFE /* AddCardToWhitelistRequestData.swift in Sources */,
+				F1D6FE84265D33BA008B8BFE /* UIFont+SFPro.swift in Sources */,
+				F1D6FE68265D33BA008B8BFE /* CreateTransactionEndpoint.swift in Sources */,
+				F1D6FE39265D33BA008B8BFE /* APIClient+Transaction.swift in Sources */,
+				F1D6FEB8265D33BA008B8BFE /* PayerSDKHelper.swift in Sources */,
+				F1D6FE55265D33BA008B8BFE /* ThreeDsVerification.swift in Sources */,
+				F1D6FE88265D33BA008B8BFE /* UIViewController+StatusBar.swift in Sources */,
+				F1D6FE5D265D33BA008B8BFE /* ServiceListRequestData.swift in Sources */,
+				F1D6FE5C265D33BA008B8BFE /* ServiceListResponseData.swift in Sources */,
+				F1D6FE47265D33BA008B8BFE /* UpdateTransactionRequestData.swift in Sources */,
+				F1D6FE66265D33BA008B8BFE /* PayTransactionEndpoint.swift in Sources */,
+				F1D6FE46265D33BA008B8BFE /* CreateTransactionResponseData.swift in Sources */,
+				F1D6FE3F265D33BA008B8BFE /* APIClient+SessionConfiguration.swift in Sources */,
+				F1D6FE49265D33BA008B8BFE /* FindTransactionResponseData.swift in Sources */,
+				F1D6FE86265D33BA008B8BFE /* UINavigationBar+Sizes.swift in Sources */,
+				F1D6FEA5265D33BA008B8BFE /* SettlePayCardDatesTableViewCell.swift in Sources */,
+				F1D6FEAD265D33BA008B8BFE /* BorderedTextFieldView.swift in Sources */,
+				F1D6FE40265D33BA008B8BFE /* APIConstants.swift in Sources */,
+				F1D6FEA9265D33BA008B8BFE /* SettlePayGeneralTitleTableViewCell.swift in Sources */,
+				F1D6FE4F265D33BA008B8BFE /* PayPoint.swift in Sources */,
+				F1D6FE3D265D33BA008B8BFE /* APIClient+Card.swift in Sources */,
+				F1D6FE59265D33BA008B8BFE /* AccountInfoResponseData.swift in Sources */,
+				F1D6FE7A265D33BA008B8BFE /* CommonInitable.swift in Sources */,
+				F1D6FEAC265D33BA008B8BFE /* SettleCardScannerViewController.swift in Sources */,
+				F1D6FE7D265D33BA008B8BFE /* UIWindow+KeyWindow.swift in Sources */,
+				F1D6FE8E265D33BA008B8BFE /* NSObject+ClassName.swift in Sources */,
+				F1D6FEB7265D33BA008B8BFE /* BaseView.swift in Sources */,
+				F1D6FE43265D33BA008B8BFE /* UpdateTransactionResponseData.swift in Sources */,
+				F1D6FEAE265D33BA008B8BFE /* BorderedButton.swift in Sources */,
+				F1D6FE61265D33BA008B8BFE /* RechabilityManager.swift in Sources */,
+				F1D6FE70265D33BA008B8BFE /* ServiceEndpoint.swift in Sources */,
+				F1D6FE8B265D33BA008B8BFE /* UINavigationController+SwapTransition.swift in Sources */,
+				F1D6FE56265D33BA008B8BFE /* Commission.swift in Sources */,
+				F1D6FE6A265D33BA008B8BFE /* AddCardToWhitelistEndpoint.swift in Sources */,
+				F1D6FE5B265D33BA008B8BFE /* ServiceRequestData.swift in Sources */,
+				F1D6FE3A265D33BA008B8BFE /* APIClient.swift in Sources */,
+				F1D6FE2D265D33BA008B8BFE /* BaseService.swift in Sources */,
+				F1D6FEBB265D33BA008B8BFE /* BundleHelper.swift in Sources */,
+				F1D6FE9F265D33BA008B8BFE /* SettlePayUIViewModel.swift in Sources */,
+				F1D6FE78265D33BA008B8BFE /* ErrorProtocol.swift in Sources */,
+				F1D6FE65265D33BA008B8BFE /* CancelTransactionEndpoint.swift in Sources */,
+				F1D6FE58265D33BA008B8BFE /* Group.swift in Sources */,
+				F1D6FE54265D33BA008B8BFE /* HostToHostFields.swift in Sources */,
+				F1D6FE74265D33BA008B8BFE /* ServiceUsecase.swift in Sources */,
+				F1D6FE7C265D33BA008B8BFE /* UIWindow+SafeAreaSizes.swift in Sources */,
+				F1D6FE34265D33BA008B8BFE /* TransactionNetworkHandlerComponent.swift in Sources */,
+				F1D6FE32265D33BA008B8BFE /* AccountNetworkHandlerComponent.swift in Sources */,
+				F1D6FE5F265D33BA008B8BFE /* ServiceField.swift in Sources */,
+				F1D6FE50265D33BA008B8BFE /* Service.swift in Sources */,
+				F1D6FEA1265D33BA008B8BFE /* SettlePayViewController+CellsDelegates.swift in Sources */,
+				F1D6FE42265D33BA008B8BFE /* PayTransactionRequestData.swift in Sources */,
+				F1D6FEB3265D33BA008B8BFE /* BaseNavigationController.swift in Sources */,
+				F1D6FE6D265D33BA008B8BFE /* APIEndpoint.swift in Sources */,
+				F1D6FE75265D33BA008B8BFE /* TransactionUsecase.swift in Sources */,
+				F1D6FE89265D33BA008B8BFE /* UINavigationController+RootViewController.swift in Sources */,
+				F1D6FE67265D33BA008B8BFE /* UpdateTransactionEndpoint.swift in Sources */,
+				F1D6FE60265D33BA008B8BFE /* Wallet.swift in Sources */,
+				F1D6FE48265D33BA008B8BFE /* CancelTransactionRequestData.swift in Sources */,
+				F1D6FEA8265D33BA008B8BFE /* SettlePayCardNumberTableViewCell.swift in Sources */,
+				F1D6FE8F265D33BA008B8BFE /* Error+Code.swift in Sources */,
+				F1D6FEB5265D33BA008B8BFE /* PaddedTextField.swift in Sources */,
+				F1D6FE3B265D33BA008B8BFE /* APIClient+Service.swift in Sources */,
+				F1D6FE6B265D33BA008B8BFE /* CheckCardEndpoint.swift in Sources */,
+				F1D6FE37265D33BA008B8BFE /* ServiceNetworkHandlerComponent.swift in Sources */,
+				F1D6FE45265D33BA008B8BFE /* PayTransactionResponseData.swift in Sources */,
+				F1D6FE8D265D33BA008B8BFE /* UITableView+CellRegistration.swift in Sources */,
+				F1D6FE30265D33BA008B8BFE /* AuthManager.swift in Sources */,
+				F1D6FEA2265D33BA008B8BFE /* SettlePayViewController+UITableView.swift in Sources */,
+				F1D6FEB2265D33BA008B8BFE /* RootViewController.swift in Sources */,
+				F1D6FE6E265D33BA008B8BFE /* AccountInfoEndpoint.swift in Sources */,
+				F1D6FE73265D33BA008B8BFE /* APIErrorDescription.swift in Sources */,
+				F1D6FEB0265D33BA008B8BFE /* BaseButton.swift in Sources */,
+				F1D6FE2E265D33BA008B8BFE /* PaymentPageService.swift in Sources */,
+				F1D6FE52265D33BA008B8BFE /* AuthRequestData.swift in Sources */,
+				F1D6FE71265D33BA008B8BFE /* Alamofire+NetworkClient.swift in Sources */,
+				F1D6FE9E265D33BA008B8BFE /* SettlePayViewController.swift in Sources */,
+				F1D6FE3C265D33BA008B8BFE /* APIClient+ServerTrust.swift in Sources */,
+				F1D6FEA7265D33BA008B8BFE /* SettlePayCardNameTableViewCell.swift in Sources */,
+				F1D6FE7E265D33BA008B8BFE /* UIColor+SDKColors.swift in Sources */,
+				F1D6FE4C265D33BA008B8BFE /* CheckCardRequestData.swift in Sources */,
+				F1D6FE51265D33BA008B8BFE /* AuthSessionData.swift in Sources */,
+				F1D6FE9D265D33BA008B8BFE /* WebViewController.swift in Sources */,
+				F1D6FE87265D33BA008B8BFE /* UIViewController+NavigationBar.swift in Sources */,
+				F1D6FE2B265D33BA008B8BFE /* CardTransferService.swift in Sources */,
+				F1D6FE57265D33BA008B8BFE /* BrowserData.swift in Sources */,
+				F1D6FE5E265D33BA008B8BFE /* ServiceResponseData.swift in Sources */,
+				F1D6FE8C265D33BA008B8BFE /* UINavigationController+AlertController.swift in Sources */,
+				F1D6FE4D265D33BA008B8BFE /* CheckCardResponseData.swift in Sources */,
+				F1D6FEA4265D33BA008B8BFE /* SettlePayGeneralSumTableViewCell.swift in Sources */,
+				F1D6FE64265D33BA008B8BFE /* APIResponseValidator.swift in Sources */,
+				F1D6FE83265D33BA008B8BFE /* UIFont+Roboto.swift in Sources */,
+				F1D6FE38265D33BA008B8BFE /* APIResponseSerializing.swift in Sources */,
+				F1D6FEB6265D33BA008B8BFE /* BorderedView.swift in Sources */,
+				F1D6FE2A265D33BA008B8BFE /* HostToHostService.swift in Sources */,
+				F1D6FE85265D33BA008B8BFE /* UICollectionView+CellRegistration.swift in Sources */,
+				F1D6FE81265D33BA008B8BFE /* UIView+NibLoaded.swift in Sources */,
+				F1D6FE35265D33BA008B8BFE /* CardNetworkHandlerComponent.swift in Sources */,
+				F1D6FE2F265D33BA008B8BFE /* CardTokenizationService.swift in Sources */,
+				F1D6FE6C265D33BA008B8BFE /* BaseEndpoint.swift in Sources */,
+				F1D6FE6F265D33BA008B8BFE /* ServiceListEndpoint.swift in Sources */,
+				F1D6FEAA265D33BA008B8BFE /* SettlePayCardCVVTableViewCell.swift in Sources */,
+				F1D6FE63265D33BA008B8BFE /* SerializerUtils.swift in Sources */,
+				F1D6FEB1265D33BA008B8BFE /* BaseViewController.swift in Sources */,
+				F1D6FE4E265D33BA008B8BFE /* Commissions.swift in Sources */,
+				F1D6FE80265D33BA008B8BFE /* UIView+RoundCorners.swift in Sources */,
+				F1D6FEA6265D33BA008B8BFE /* SettlePayCompaniesTableViewCell.swift in Sources */,
+				F1D6FE7B265D33BA008B8BFE /* StoryboardInstantiable.swift in Sources */,
+				F1D6FE41265D33BA008B8BFE /* FindTransactionRequestData.swift in Sources */,
+				F1D6FE33265D33BA008B8BFE /* NetworkHandling.swift in Sources */,
+				F1D6FE53265D33BA008B8BFE /* AuthorizationData.swift in Sources */,
+				F1D6FE7F265D33BA008B8BFE /* UIColor+Hex.swift in Sources */,
+				F1D6FE92265D33BA008B8BFE /* Constants+Notifications.swift in Sources */,
+				F1D6FE82265D33BA008B8BFE /* NSRange+Deleting.swift in Sources */,
+				F1D6FEB4265D33BA008B8BFE /* RoundedView.swift in Sources */,
+				F1D6FE4A265D33BA008B8BFE /* CreateTransactionRequestData.swift in Sources */,
+				F1D6FE62265D33BA008B8BFE /* APIErrorValidator.swift in Sources */,
+				F1D6FE77265D33BA008B8BFE /* AccountUsecase.swift in Sources */,
+				F1D6FE72265D33BA008B8BFE /* APIError.swift in Sources */,
+				F1D6FEA3265D33BA008B8BFE /* SettlePayActionButtonTableViewCell.swift in Sources */,
+				F1D6FE76265D33BA008B8BFE /* CardUsecase.swift in Sources */,
+				F1D6FE31265D33BA008B8BFE /* Core.swift in Sources */,
+				F1D6FEBA265D33BA008B8BFE /* IPAdressHelper.swift in Sources */,
+				F1D6FEB9265D33BA008B8BFE /* CryptoHelper.swift in Sources */,
+				F1D6FE36265D33BA008B8BFE /* BaseNetworkHandler.swift in Sources */,
+				F1D6FE2C265D33BA008B8BFE /* PaymentSDK.swift in Sources */,
+				F1D6FE90265D33BA008B8BFE /* Constants.swift in Sources */,
+				F1D6FE91265D33BA008B8BFE /* Constants+UI.swift in Sources */,
+				F1D6FEAF265D33BA008B8BFE /* RoundedButton.swift in Sources */,
+				F1D6FE3E265D33BA008B8BFE /* APIClient+Account.swift in Sources */,
+				F1D6FE5A265D33BA008B8BFE /* AccountInfoRequestData.swift in Sources */,
+				F1D6FE79265D33BA008B8BFE /* AutoIndentifierCell.swift in Sources */,
+				F1D6FE44265D33BA008B8BFE /* CancelTransactionResponseData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F1D6FD2A265D3371008B8BFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F1D6FD2B265D3371008B8BFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F1D6FD2D265D3371008B8BFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = FGY9M8PF4D;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "settlepay-ios-sdk/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.touchcard.settlepay-ios-sdk";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1D6FD2E265D3371008B8BFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = FGY9M8PF4D;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "settlepay-ios-sdk/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.touchcard.settlepay-ios-sdk";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1D6FD1E265D3371008B8BFE /* Build configuration list for PBXProject "settlepay-ios-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1D6FD2A265D3371008B8BFE /* Debug */,
+				F1D6FD2B265D3371008B8BFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1D6FD2C265D3371008B8BFE /* Build configuration list for PBXNativeTarget "settlepay-ios-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1D6FD2D265D3371008B8BFE /* Debug */,
+				F1D6FD2E265D3371008B8BFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1D6FD1B265D3371008B8BFE /* Project object */;
+}
